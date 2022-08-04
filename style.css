@@ -12,6 +12,7 @@
     --bg-color: #010712;
     --button-color: #818386;
     --h1-color: #FCFDFD;
+    
   }
   
   * {
@@ -126,7 +127,7 @@
     opacity: 0.8;
   }
   
-  /* Toggle Switch */
+
   
   .theme-switch-wrapper {
     display: flex;
@@ -139,8 +140,8 @@
   }
   
   .description {
-      margin-left: 1.25rem;
-    }
+    margin-left: 1.25rem;
+  }
   
   .theme-switch {
     display: inline-block;
@@ -191,7 +192,7 @@
     border-radius: 50%;
   }
   
-  #error, #success-msg {
+  #error-msg, #success-msg {
     width: 40vw;
     margin: 0.125rem 0;
     font-size: 0.75rem;
@@ -259,4 +260,4 @@
     border-radius: 50%;
   }
   
-  }
+}
